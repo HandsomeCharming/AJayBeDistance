@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603704DB1CE2C0F0001C1AF7 /* SecondInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603704DA1CE2C0F0001C1AF7 /* SecondInstruction.swift */; };
+		603704DD1CE2CAA0001C1AF7 /* SecondCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603704DC1CE2CAA0001C1AF7 /* SecondCapture.swift */; };
+		603704DF1CE2D07F001C1AF7 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603704DE1CE2D07F001C1AF7 /* Results.swift */; };
+		606224421CE3008300545032 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606224411CE3008300545032 /* MapViewController.swift */; };
+		606224441CE301B000545032 /* currentlocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 606224431CE301B000545032 /* currentlocation.png */; };
+		60FE42CC1CE1236800CAAC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE42CB1CE1236800CAAC34 /* AppDelegate.swift */; };
+		60FE42CE1CE1236800CAAC34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE42CD1CE1236800CAAC34 /* ViewController.swift */; };
+		60FE42D11CE1236800CAAC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42CF1CE1236800CAAC34 /* Main.storyboard */; };
+		60FE42D31CE1236800CAAC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42D21CE1236800CAAC34 /* Assets.xcassets */; };
+		60FE42D61CE1236800CAAC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42D41CE1236800CAAC34 /* LaunchScreen.storyboard */; };
+		60FE42E11CE1236800CAAC34 /* AJaybe_Tool_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE42E01CE1236800CAAC34 /* AJaybe_Tool_KitTests.swift */; };
+		60FE42EC1CE1236800CAAC34 /* AJaybe_Tool_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE42EB1CE1236800CAAC34 /* AJaybe_Tool_KitUITests.swift */; };
+		60FE43001CE1240F00CAAC34 /* CaptureButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42FA1CE1240F00CAAC34 /* CaptureButton.png */; };
+		60FE43011CE1240F00CAAC34 /* Crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42FB1CE1240F00CAAC34 /* Crosshair.png */; };
+		60FE43021CE1240F00CAAC34 /* MainButtonA.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42FC1CE1240F00CAAC34 /* MainButtonA.png */; };
+		60FE43031CE1240F00CAAC34 /* MainButtonB.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42FD1CE1240F00CAAC34 /* MainButtonB.png */; };
+		60FE43041CE1240F00CAAC34 /* StepII.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE42FE1CE1240F00CAAC34 /* StepII.png */; };
+		60FE43071CE12AB500CAAC34 /* FirstCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FE43061CE12AB500CAAC34 /* FirstCapture.swift */; };
+		AD774CE81CE189CE00ABA796 /* CameraOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD774CE61CE189CE00ABA796 /* CameraOverlayViewController.swift */; };
+		AD774CE91CE189CE00ABA796 /* CameraOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD774CE71CE189CE00ABA796 /* CameraOverlayViewController.xib */; };
+		AD774CEB1CE1ACFB00ABA796 /* ReturnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AD774CEA1CE1ACFB00ABA796 /* ReturnButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60FE42DD1CE1236800CAAC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FE42C01CE1236800CAAC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FE42C71CE1236800CAAC34;
+			remoteInfo = "AJaybe Tool Kit";
+		};
+		60FE42E81CE1236800CAAC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FE42C01CE1236800CAAC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FE42C71CE1236800CAAC34;
+			remoteInfo = "AJaybe Tool Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603704DA1CE2C0F0001C1AF7 /* SecondInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInstruction.swift; sourceTree = "<group>"; };
+		603704DC1CE2CAA0001C1AF7 /* SecondCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCapture.swift; sourceTree = "<group>"; };
+		603704DE1CE2D07F001C1AF7 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		606224411CE3008300545032 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		606224431CE301B000545032 /* currentlocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentlocation.png; sourceTree = "<group>"; };
+		60FE42C81CE1236800CAAC34 /* AJaybe Tool Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AJaybe Tool Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FE42CB1CE1236800CAAC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60FE42CD1CE1236800CAAC34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60FE42D01CE1236800CAAC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60FE42D21CE1236800CAAC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60FE42D51CE1236800CAAC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60FE42D71CE1236800CAAC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FE42DC1CE1236800CAAC34 /* AJaybe Tool KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AJaybe Tool KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FE42E01CE1236800CAAC34 /* AJaybe_Tool_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJaybe_Tool_KitTests.swift; sourceTree = "<group>"; };
+		60FE42E21CE1236800CAAC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FE42E71CE1236800CAAC34 /* AJaybe Tool KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AJaybe Tool KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FE42EB1CE1236800CAAC34 /* AJaybe_Tool_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJaybe_Tool_KitUITests.swift; sourceTree = "<group>"; };
+		60FE42ED1CE1236800CAAC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FE42FA1CE1240F00CAAC34 /* CaptureButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CaptureButton.png; sourceTree = "<group>"; };
+		60FE42FB1CE1240F00CAAC34 /* Crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crosshair.png; sourceTree = "<group>"; };
+		60FE42FC1CE1240F00CAAC34 /* MainButtonA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainButtonA.png; sourceTree = "<group>"; };
+		60FE42FD1CE1240F00CAAC34 /* MainButtonB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainButtonB.png; sourceTree = "<group>"; };
+		60FE42FE1CE1240F00CAAC34 /* StepII.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StepII.png; sourceTree = "<group>"; };
+		60FE43061CE12AB500CAAC34 /* FirstCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstCapture.swift; sourceTree = "<group>"; };
+		AD774CE61CE189CE00ABA796 /* CameraOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlayViewController.swift; sourceTree = "<group>"; };
+		AD774CE71CE189CE00ABA796 /* CameraOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraOverlayViewController.xib; sourceTree = "<group>"; };
+		AD774CEA1CE1ACFB00ABA796 /* ReturnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReturnButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FE42C51CE1236800CAAC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42D91CE1236800CAAC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42E41CE1236800CAAC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FE42BF1CE1236800CAAC34 = {
+			isa = PBXGroup;
+			children = (
+				60FE42CA1CE1236800CAAC34 /* AJaybe Tool Kit */,
+				60FE42DF1CE1236800CAAC34 /* AJaybe Tool KitTests */,
+				60FE42EA1CE1236800CAAC34 /* AJaybe Tool KitUITests */,
+				60FE42C91CE1236800CAAC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FE42C91CE1236800CAAC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FE42C81CE1236800CAAC34 /* AJaybe Tool Kit.app */,
+				60FE42DC1CE1236800CAAC34 /* AJaybe Tool KitTests.xctest */,
+				60FE42E71CE1236800CAAC34 /* AJaybe Tool KitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FE42CA1CE1236800CAAC34 /* AJaybe Tool Kit */ = {
+			isa = PBXGroup;
+			children = (
+				60FE43051CE1241600CAAC34 /* Assets */,
+				60FE42CB1CE1236800CAAC34 /* AppDelegate.swift */,
+				60FE42CD1CE1236800CAAC34 /* ViewController.swift */,
+				60FE43061CE12AB500CAAC34 /* FirstCapture.swift */,
+				603704DA1CE2C0F0001C1AF7 /* SecondInstruction.swift */,
+				603704DC1CE2CAA0001C1AF7 /* SecondCapture.swift */,
+				603704DE1CE2D07F001C1AF7 /* Results.swift */,
+				606224411CE3008300545032 /* MapViewController.swift */,
+				60FE42CF1CE1236800CAAC34 /* Main.storyboard */,
+				60FE42D21CE1236800CAAC34 /* Assets.xcassets */,
+				60FE42D41CE1236800CAAC34 /* LaunchScreen.storyboard */,
+				60FE42D71CE1236800CAAC34 /* Info.plist */,
+				606224431CE301B000545032 /* currentlocation.png */,
+				60FE42FA1CE1240F00CAAC34 /* CaptureButton.png */,
+				60FE42FB1CE1240F00CAAC34 /* Crosshair.png */,
+				60FE42FC1CE1240F00CAAC34 /* MainButtonA.png */,
+				60FE42FD1CE1240F00CAAC34 /* MainButtonB.png */,
+				AD774CEA1CE1ACFB00ABA796 /* ReturnButton.png */,
+				60FE42FE1CE1240F00CAAC34 /* StepII.png */,
+				AD774CE61CE189CE00ABA796 /* CameraOverlayViewController.swift */,
+				AD774CE71CE189CE00ABA796 /* CameraOverlayViewController.xib */,
+			);
+			path = "AJaybe Tool Kit";
+			sourceTree = "<group>";
+		};
+		60FE42DF1CE1236800CAAC34 /* AJaybe Tool KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				60FE42E01CE1236800CAAC34 /* AJaybe_Tool_KitTests.swift */,
+				60FE42E21CE1236800CAAC34 /* Info.plist */,
+			);
+			path = "AJaybe Tool KitTests";
+			sourceTree = "<group>";
+		};
+		60FE42EA1CE1236800CAAC34 /* AJaybe Tool KitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60FE42EB1CE1236800CAAC34 /* AJaybe_Tool_KitUITests.swift */,
+				60FE42ED1CE1236800CAAC34 /* Info.plist */,
+			);
+			path = "AJaybe Tool KitUITests";
+			sourceTree = "<group>";
+		};
+		60FE43051CE1241600CAAC34 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FE42C71CE1236800CAAC34 /* AJaybe Tool Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FE42F01CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool Kit" */;
+			buildPhases = (
+				60FE42C41CE1236800CAAC34 /* Sources */,
+				60FE42C51CE1236800CAAC34 /* Frameworks */,
+				60FE42C61CE1236800CAAC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AJaybe Tool Kit";
+			productName = "AJaybe Tool Kit";
+			productReference = 60FE42C81CE1236800CAAC34 /* AJaybe Tool Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FE42DB1CE1236800CAAC34 /* AJaybe Tool KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FE42F31CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool KitTests" */;
+			buildPhases = (
+				60FE42D81CE1236800CAAC34 /* Sources */,
+				60FE42D91CE1236800CAAC34 /* Frameworks */,
+				60FE42DA1CE1236800CAAC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FE42DE1CE1236800CAAC34 /* PBXTargetDependency */,
+			);
+			name = "AJaybe Tool KitTests";
+			productName = "AJaybe Tool KitTests";
+			productReference = 60FE42DC1CE1236800CAAC34 /* AJaybe Tool KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60FE42E61CE1236800CAAC34 /* AJaybe Tool KitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FE42F61CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool KitUITests" */;
+			buildPhases = (
+				60FE42E31CE1236800CAAC34 /* Sources */,
+				60FE42E41CE1236800CAAC34 /* Frameworks */,
+				60FE42E51CE1236800CAAC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FE42E91CE1236800CAAC34 /* PBXTargetDependency */,
+			);
+			name = "AJaybe Tool KitUITests";
+			productName = "AJaybe Tool KitUITests";
+			productReference = 60FE42E71CE1236800CAAC34 /* AJaybe Tool KitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FE42C01CE1236800CAAC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Handa Zhang";
+				TargetAttributes = {
+					60FE42C71CE1236800CAAC34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y8LPH43Q6P;
+					};
+					60FE42DB1CE1236800CAAC34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 60FE42C71CE1236800CAAC34;
+					};
+					60FE42E61CE1236800CAAC34 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 60FE42C71CE1236800CAAC34;
+					};
+				};
+			};
+			buildConfigurationList = 60FE42C31CE1236800CAAC34 /* Build configuration list for PBXProject "AJaybe Tool Kit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FE42BF1CE1236800CAAC34;
+			productRefGroup = 60FE42C91CE1236800CAAC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FE42C71CE1236800CAAC34 /* AJaybe Tool Kit */,
+				60FE42DB1CE1236800CAAC34 /* AJaybe Tool KitTests */,
+				60FE42E61CE1236800CAAC34 /* AJaybe Tool KitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FE42C61CE1236800CAAC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606224441CE301B000545032 /* currentlocation.png in Resources */,
+				60FE43011CE1240F00CAAC34 /* Crosshair.png in Resources */,
+				AD774CEB1CE1ACFB00ABA796 /* ReturnButton.png in Resources */,
+				60FE42D61CE1236800CAAC34 /* LaunchScreen.storyboard in Resources */,
+				AD774CE91CE189CE00ABA796 /* CameraOverlayViewController.xib in Resources */,
+				60FE43041CE1240F00CAAC34 /* StepII.png in Resources */,
+				60FE42D31CE1236800CAAC34 /* Assets.xcassets in Resources */,
+				60FE43001CE1240F00CAAC34 /* CaptureButton.png in Resources */,
+				60FE43031CE1240F00CAAC34 /* MainButtonB.png in Resources */,
+				60FE42D11CE1236800CAAC34 /* Main.storyboard in Resources */,
+				60FE43021CE1240F00CAAC34 /* MainButtonA.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42DA1CE1236800CAAC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42E51CE1236800CAAC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FE42C41CE1236800CAAC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FE42CE1CE1236800CAAC34 /* ViewController.swift in Sources */,
+				603704DB1CE2C0F0001C1AF7 /* SecondInstruction.swift in Sources */,
+				60FE42CC1CE1236800CAAC34 /* AppDelegate.swift in Sources */,
+				603704DF1CE2D07F001C1AF7 /* Results.swift in Sources */,
+				AD774CE81CE189CE00ABA796 /* CameraOverlayViewController.swift in Sources */,
+				603704DD1CE2CAA0001C1AF7 /* SecondCapture.swift in Sources */,
+				60FE43071CE12AB500CAAC34 /* FirstCapture.swift in Sources */,
+				606224421CE3008300545032 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42D81CE1236800CAAC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FE42E11CE1236800CAAC34 /* AJaybe_Tool_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FE42E31CE1236800CAAC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FE42EC1CE1236800CAAC34 /* AJaybe_Tool_KitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FE42DE1CE1236800CAAC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FE42C71CE1236800CAAC34 /* AJaybe Tool Kit */;
+			targetProxy = 60FE42DD1CE1236800CAAC34 /* PBXContainerItemProxy */;
+		};
+		60FE42E91CE1236800CAAC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FE42C71CE1236800CAAC34 /* AJaybe Tool Kit */;
+			targetProxy = 60FE42E81CE1236800CAAC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60FE42CF1CE1236800CAAC34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FE42D01CE1236800CAAC34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60FE42D41CE1236800CAAC34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FE42D51CE1236800CAAC34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60FE42EE1CE1236800CAAC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60FE42EF1CE1236800CAAC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60FE42F11CE1236800CAAC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "AJaybe Tool Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-Kit-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		60FE42F21CE1236800CAAC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "AJaybe Tool Kit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-Kit-New";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		60FE42F41CE1236800CAAC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AJaybe Tool KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJaybe Tool Kit.app/AJaybe Tool Kit";
+			};
+			name = Debug;
+		};
+		60FE42F51CE1236800CAAC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AJaybe Tool KitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJaybe Tool Kit.app/AJaybe Tool Kit";
+			};
+			name = Release;
+		};
+		60FE42F71CE1236800CAAC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AJaybe Tool KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AJaybe Tool Kit";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60FE42F81CE1236800CAAC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AJaybe Tool KitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Handa-Zhang.AJaybe-Tool-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AJaybe Tool Kit";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FE42C31CE1236800CAAC34 /* Build configuration list for PBXProject "AJaybe Tool Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FE42EE1CE1236800CAAC34 /* Debug */,
+				60FE42EF1CE1236800CAAC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FE42F01CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FE42F11CE1236800CAAC34 /* Debug */,
+				60FE42F21CE1236800CAAC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FE42F31CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FE42F41CE1236800CAAC34 /* Debug */,
+				60FE42F51CE1236800CAAC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FE42F61CE1236800CAAC34 /* Build configuration list for PBXNativeTarget "AJaybe Tool KitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FE42F71CE1236800CAAC34 /* Debug */,
+				60FE42F81CE1236800CAAC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FE42C01CE1236800CAAC34 /* Project object */;
+}

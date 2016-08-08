@@ -1,0 +1,13 @@
+Handa Zhang, Donghua Xue, Yiming Zhang
+
+You should be able to directly build and run our app.
+To run our app properly, you have to use a real iphone, instead of a simulator, so you would need to edit the bundle identifier to run on your phone.
+Our app don't run on simulators because they don't have camera and motion device.
+
+To use our app, you can simply use the GPS measure, to measure the distance between two points.
+You can drop two pins by holding on map to measure the distance between them.
+You can also use camera measure with a ruler. 
+Step 1: Press Observe Measure, put the phone at left end of the ruler and point the crosshair at the target and take a photo.
+Step 2: Move the phone right along the ruler, and type in the distance moved on the ruler.
+Step 3: Take another photo while pointing the crosshair at the target.
+Step 4: Get result.
